@@ -9,9 +9,6 @@ import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 export class CarouselComponent {
   showNavigationArrows = false;
   showNavigationIndicators = false;
-  images = [1, 2, 3, 4].map(() => `https://picsum.photos/900/500?random&t=${Math.random()}`);
-  counter = 0;
-  image = new Map();
 
   constructor(config: NgbCarouselConfig) {
     // customize default values of carousels used by this component tree

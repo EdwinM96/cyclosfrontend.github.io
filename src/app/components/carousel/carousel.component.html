@@ -1,10 +1,24 @@
+<style>
+.background{
+  position: relative;
+  top:0px;
+  left:0px;
+}
+.first-layer{
+  position: absolute;
+  top:-40px;
+  left:-200px;
+  z-index: 1;
+}
+</style>
 
 
 <div class="container">
-<ngb-carousel [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
+  <!--[showNavigationIndicators]="showNavigationIndicators"-->
+<ngb-carousel [showNavigationArrows]="showNavigationArrows" >
   <ng-template ngbSlide>
-    <img src="assets/imgs/1.jpg" alt="Random first slide" class="background">
-    <img src="assets/imgs/inferior1.png" class="first-layer">
+    <img src="assets/imgs/1.jpg" alt="Random first slide" class="background animated ">
+    <img src="assets/imgs/inferior1.png" class="first-layer animated bounceInLeft slow">
     <div class="carousel-caption" >
     </div>
   </ng-template>
@@ -25,13 +39,12 @@
   </ng-template>
   <ng-template ngbSlide>
     <div class="background-layer"></div>
-    <!---<img src="assets/imgs/4.png" alt="Random third slide"  style="position: relative;">-->
-    <div class="carousel-caption">
+    <img src="assets/imgs/4.png" alt="Random third slide"  style="position: relative;">
+
 
       <div class="carousel-caption">
       <h3>Third slide label</h3>
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p></div>
-    </div>
   </ng-template>
 </ngb-carousel>
 </div>
