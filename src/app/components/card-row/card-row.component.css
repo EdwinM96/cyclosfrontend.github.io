@@ -1,0 +1,34 @@
+.my-card
+{
+    position:absolute;
+    left:35%;
+    top:-40px;
+    border-radius:50%;
+    background-color:#94bb1d;
+}
+.super-card:hover .fa{
+    color: #94bb1d;
+}
+.my-card:hover {
+    background-color: white;
+}
+.super-card:hover{
+    background-color: #94bb1d;
+}
+.super-card:hover .my-card{
+    background-color: white;
+}
+.fa{
+    color: white;
+}
+.text-padding{
+    padding-top: 10px;
+}
+.space{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.extra-space{
+    margin-left:17px;
+    margin-right:17px;
+}
