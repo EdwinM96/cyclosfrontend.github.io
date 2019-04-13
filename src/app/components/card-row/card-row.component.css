@@ -32,3 +32,12 @@
     margin-left:17px;
     margin-right:17px;
 }
+.delay-1{
+    animation-delay: 150ms;
+}
+.delay-2{
+    animation-delay: 300ms;
+}
+.delay-3{
+    animation-delay: 450ms;
+}

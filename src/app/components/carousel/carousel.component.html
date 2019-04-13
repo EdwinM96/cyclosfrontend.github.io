@@ -1,51 +1,53 @@
-<link rel='stylesheet' id='mpc-massive-style-css'  href='http://puntotra-cp5020.wordpresstemporal.com/wp-content/plugins/mpc-massive/assets/css/mpc-styles.css?ver=4.9.10' type='text/css' media='all' />
-
-<style>
-.background{
-  position: relative;
-  top:0px;
-  left:0px;
-}
-.first-layer{
-  position: absolute;
-  top:-40px;
-  left:-200px;
-  z-index: 1;
-  animation-delay: 0ms;
-}
-</style>
 
 
 <div class="container">
   <!--[showNavigationIndicators]="showNavigationIndicators"-->
 <ngb-carousel [showNavigationArrows]="showNavigationArrows" >
-  <ng-template ngbSlide>
-    <img src="assets/imgs/1.jpg" alt="Random first slide" class="background animated">
-    <img src="assets/imgs/inferior1.png" class="first-layer animated bounceInLeft slow">
+  <ng-template ngbSlide style="height:200px;">
+    <img src="assets/imgs/1.png"  alt="Random first slide" class="background animated">
+    <img src="assets/imgs/inferior1.png" class="first-layer animated slideInLeft ">
+    <img src="assets/imgs/inferior2.png" class="second-layer animated slideInLeft ">
     <div class="carousel-caption" >
+      <div class="carousel-location">
+        <img src="assets/imgs/icon-1.png" style ="align-content: left;" class="animated fadeIn delay-2">
+        <h3 class="animated slideInLeft delay-1">Red de Negocio</h3>
+        <p class="animated slideInLeft delay-1">Experiencia de 10 años generando negocios en El Salvador.</p></div>
     </div>
   </ng-template>
   <ng-template ngbSlide>
     <!----<img src="assets/imgs/3.png" style="position:absolute"alt="Random third slide">-->
     <img src="assets/imgs/2.png" alt="Random second slide">
-    <div class="carousel-caption">
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <img src="assets/imgs/inferior1.png" class="first-layer animated slideInLeft ">
+    <img src="assets/imgs/inferior2.png" class="second-layer animated slideInLeft ">
+    <div class="carousel-caption" >
+      <div class="carousel-location">
+        <img src="assets/imgs/icon-2.png" style ="align-content: left" class="animated fadeIn delay-2">
+        <h3 class="animated slideInLeft delay-1">Venda m&aacute;s</h3>
+        <p class="animated slideInLeft delay-1">En la red puede aprovechar su capacidad instalada con nuevos clientes</p></div>
     </div>
   </ng-template>
   <ng-template ngbSlide>
     <img src="assets/imgs/3.png" alt="Random third slide">
-    <div class="carousel-caption">
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    <img src="assets/imgs/inferior1.png" class="first-layer animated slideInLeft">
+    <img src="assets/imgs/inferior2.png" class="second-layer animated slideInLeft">
+    <div class="carousel-caption" >
+      <div class="carousel-location">
+        <img src="assets/imgs/icon-3.png" style ="align-content: left" class="animated fadeIn delay-2">
+        <h3 class="animated slideInLeft delay-1">Compre...</h3>
+        <p class="animated slideInLeft delay-1">Adquiera productos y servicios para inversi&oacute;n en su negocio y gastos operativos</p></div>
     </div>
   </ng-template>
   <ng-template ngbSlide>
     <div class="background-layer"></div>
     <img src="assets/imgs/4.png" alt="Random third slide"  style="position: relative;">
-      <div class="carousel-caption">
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p></div>
+    <img src="assets/imgs/inferior1.png" class="first-layer animated slideInLeft">
+    <img src="assets/imgs/inferior2.png" class="second-layer animated slideInLeft">
+    <div class="carousel-caption" >
+      <div class="carousel-location">
+        <img src="assets/imgs/icon-4.png" style ="align-content: left" class="animated fadeIn delay-2">
+        <h3 class="animated slideInLeft delay-1">Mayor Rentabilidad</h3>
+        <p class="animated slideInLeft delay-1">Sus ventas adicionales en la Red le generan ganancias extras</p></div>
+    </div>
   </ng-template>
 </ngb-carousel>
 </div>
