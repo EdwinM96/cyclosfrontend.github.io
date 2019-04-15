@@ -6,13 +6,19 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { MainIndexComponent } from './components/main-index/main-index.component';
 import { CardRowComponent } from './components/card-row/card-row.component';
+import { CircleRowComponent } from './components/circle-row/circle-row.component';
+import { UpBtnComponent } from './components/up-btn/up-btn.component';
+import { MiddleSectionComponent } from './components/middle-section/middle-section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CarouselComponent,
     MainIndexComponent,
-    CardRowComponent
+    CardRowComponent,
+    CircleRowComponent,
+    UpBtnComponent,
+    MiddleSectionComponent
   ],
   imports: [
     BrowserModule,
