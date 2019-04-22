@@ -7,9 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UpBtnComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    window.onscroll = () => scrollFunction();
+   }
 
   ngOnInit() {
   }
 
 }
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById('topBtn').style.display = 'block';
+  } else {
+    document.getElementById('topBtn').style.display = 'none';
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document

@@ -1,0 +1,20 @@
+#topBtn {
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    width:45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #94bb1d;
+    color:#ffffff;
+    border:none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    outline: none;
+    text-align: center
+
+  }
+  
+  #topBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
