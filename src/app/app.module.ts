@@ -9,6 +9,7 @@ import { CardRowComponent } from './components/card-row/card-row.component';
 import { CircleRowComponent } from './components/circle-row/circle-row.component';
 import { UpBtnComponent } from './components/up-btn/up-btn.component';
 import { MiddleSectionComponent } from './components/middle-section/middle-section.component';
+import { SampleComponent } from './components/sample/sample.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MiddleSectionComponent } from './components/middle-section/middle-secti
     CardRowComponent,
     CircleRowComponent,
     UpBtnComponent,
-    MiddleSectionComponent
+    MiddleSectionComponent,
+    SampleComponent
   ],
   imports: [
     BrowserModule,
